@@ -6,7 +6,7 @@ Project thread at https://forum.vcfed.org/index.php?threads/sbc6120-mini-front-p
 
 The current PCB and dress panel are drilled for miniature toggles with a 6mm diameter bushing/stem.  1/4-40 switches will NOT fit since I wanted a tight fit on the dress panel and the switches are spaced to tightly to use the dress nuts.  Plus I think this stype looks nicer (same as an Altair).
 
-These are commonly referring to as MTS-102 (ON-ON) and MTS-112 (ON-Momentary ON) on Aliexpress.  I tried all the different red and blue models and ended up using the ones linked below.  Total cost shipped to the US for twenty MTS-102 and ten MTS-112 switches was less than ten bucks, versus the $40 it would cost to buy something like E-Switch 100 Series which was the cheapest domestic option I could find.  C&K 7000 series were over $160 for 20 minature toggles.  Maybe the action is a bit better, but at the end of the day this is a toy for me, so I would personally rather spend the budget on the next project.
+These are commonly listed as MTS-102 (ON-ON) and MTS-112 (ON-Momentary ON) on Aliexpress.  I tried all the different red and blue models and ended up using the ones linked below in the BOM.  Total cost shipped to the US for twenty MTS-102 and ten MTS-112 switches was less than ten bucks, versus the $40 it would cost to buy something like E-Switch 100 Series which was the cheapest domestic option I could find.  C&K 7000 series were over $160 for 20 minature toggles.  Maybe the action is a bit better, but at the end of the day this is a toy for me, so I would personally rather spend the budget on the next project.
 
 # Electrical BOM
 
