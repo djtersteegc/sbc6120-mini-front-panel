@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.9*%
+%TF.CreationDate,2023-12-04T17:05:14-06:00*%
+%TF.ProjectId,sbc6120-rbc-front-panel,73626336-3132-4302-9d72-62632d66726f,1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.9) date 2023-12-04 17:05:14*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X50800000Y-25400000D02*
+X248920000Y-25400000D01*
+X248920000Y-146685000D01*
+X50800000Y-146685000D01*
+X50800000Y-25400000D01*
+M02*

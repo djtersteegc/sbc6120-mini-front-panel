@@ -1,0 +1,7 @@
+1) Label all the mounting holes in the silk screen.
+
+2) More clearance around the mounting holes between MA2-3-4.
+
+3) Use standard 4-40 holes for the disk drive.
+
+4) front and back soldermasks are exchanged.
