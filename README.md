@@ -12,7 +12,9 @@ These are commonly listed as MTS-102 (ON-ON) and MTS-112 (ON-Momentary ON) on Al
 
 There's an interactive BOM [here](https://djtersteegc.github.io/sbc6120-mini-front-panel/ibom.html), and CSV version with footprint info [here](https://djtersteegc.github.io/sbc6120-mini-front-panel/bom.csv).
 
-I buy pretty much everything from UTSource (for logic) or AliExpress suppliers these days with the exception of the capacitors (whatever is on clearance at Newark) and the rotary switch is only available from C&K.  If you are shopping local everything should be available from Mouser/DigiKey/Newark with the exception of the Amtel PLD chips.
+I buy pretty much everything from UTSource (for logic) or AliExpress suppliers these days with the exception of the capacitors (whatever is on clearance at Newark) and the rotary switch is only available from C&K.  If you are shopping local everything should be available from Mouser/DigiKey/Newark.
+
+Here is a [shared Mouser cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=54b04bab67) with all the electrical BOM minus the toggle and slide switches which are a China only part.
 
 C16 is a bulk storage cap for the 5V line.  I specced it at 470uF, but anything from 100uF and up will probably be fine.  You may not even really need it.
 
@@ -39,8 +41,8 @@ C16 is a bulk storage cap for the 5V line.  I specced it at 470uF, but anything 
 | 74HC366                                         | 4    |                      |                                                              |
 | 74HC373                                         | 2    |                      |                                                              |
 | 7555 Timer                                      | 1    |                      |                                                              |
-| ATF16V8                                         | 1    |                      | UTSource/Ali/eBay                                            |
-| ATF22V10                                        | 1    |                      | UTSource/Ali/eBay                                            |
+| ATF16V8                                         | 1    |                      |                                                              |
+| ATF22V10                                        | 1    |                      |                                                              |
 | 2x25 2.54mm Pin Header                          | 1    |                      | [AliExpress](https://www.aliexpress.us/item/2251832485909733.html) |
 | 1x2 2.54mm Pin Socket                           | 1    | Cut down a 40p strip | [AliExpress](https://www.aliexpress.us/item/2251832484668248.html) |
 | 5.08mm 2p Terminal Block (or original 4P Molex) | 1    | KF301-2P (Power In)  | [AliExpress](https://www.aliexpress.us/item/2251832480927324.html) |
@@ -52,7 +54,7 @@ C16 is a bulk storage cap for the 5V line.  I specced it at 470uF, but anything 
 | 12mm M3 Standoff             | 5    | SBC6120 to Panel     | 3D Print                                                     |
 | 15.6mm M3 Standoff           | 7    | Panel to Dress Panel | 3D Print                                                     |
 | 2mm High M3 Rubber Bumpers   | 7    | TS-2.7 Option        | [AliExpress](https://www.aliexpress.us/item/3256805089368820.html) |
-| M3 x 6mm Taper Head Screws   | 11   |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
+| M3 x 6mm Taper Head Screws   | 12   |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
 | M3 x 12mm Taper Head Screws  | 5    |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
 | M2.5 x 6mm Taper Head Screws | 6    |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
 | 15mm Diameter Knob           | 1    | "Plum Shaft" Option  | [AliExpress](https://www.aliexpress.us/item/2251832788673272.html) |
