@@ -12,7 +12,7 @@ These are commonly listed as MTS-102 (ON-ON) and MTS-112 (ON-Momentary ON) on Al
 
 There's an interactive BOM [here](https://djtersteegc.github.io/sbc6120-mini-front-panel/ibom.html), and CSV version with footprint info [here](https://djtersteegc.github.io/sbc6120-mini-front-panel/bom.csv).
 
-I  buy pretty much everything from UTSource (for logic) or AliExpress suppliers these days with the exception of the capacitors (whatever is on clearance at Newark) and the rotary switch is only available from C&K.  If you are shopping local everything should be available from Mouser/DigiKey/Newark with the exception of the Amtel GAL chips.
+I buy pretty much everything from UTSource (for logic) or AliExpress suppliers these days with the exception of the capacitors (whatever is on clearance at Newark) and the rotary switch is only available from C&K.  If you are shopping local everything should be available from Mouser/DigiKey/Newark with the exception of the Amtel PLD chips.
 
 C16 is a bulk storage cap for the 5V line.  I specced it at 470uF, but anything from 100uF and up will probably be fine.  You may not even really need it.
 
@@ -22,16 +22,16 @@ C16 is a bulk storage cap for the 5V line.  I specced it at 470uF, but anything 
 | 100nF Ceramic Capacitor                         | 13   | 5.08mm Lead Spacing  | [AliExpress](https://www.aliexpress.us/item/2251832786944590.html) |
 | 1uF Ceramic Capacitor                           | 1    | 5.08mm Lead Spacing  | [AliExpress](https://www.aliexpress.us/item/2251832786944590.html) |
 | 470uF 16V Electrolytic Capacitor                | 1    | 3.5mm Lead Spacing   | [Newark](https://www.newark.com/multicomp-pro/mcmr16v477m8x9/cap-470uf-16v-alu-elec-radial/dp/39T1477) |
-| 10K 1/4W Resistor                               | 3    |                      | [AliExpress](https://www.aliexpress.us/item/2251832766343175.html) |
-| 17.4K 1/4W Resistor                             | 2    |                      | [AliExpress](https://www.aliexpress.us/item/2251832766343175.html) |
+| 10K 1% 1/4W Resistor                            | 3    |                      | [AliExpress](https://www.aliexpress.us/item/2251832766343175.html) |
+| 17.4K 1% 1/4W Resistor                          | 1    |                      | [AliExpress](https://www.aliexpress.us/item/2251832766343175.html) |
 | 560R SIP9 Resistor Network                      | 4    | I used 510R          | [AliExpress](https://www.aliexpress.us/item/3256801607747550.html) |
 | 4.7K SIP5 Resistor Network                      | 1    |                      | [AliExpress](https://www.aliexpress.us/item/2251832653789055.html) |
-| 4.7K SIP6 Resistor Network                      | 3    |                      | [AliExpress](https://www.aliexpress.us/item/2251832653789055.html) |
+| 4.7K SIP6 Resistor Network                      | 1    |                      | [AliExpress](https://www.aliexpress.us/item/2251832653789055.html) |
 | 4.7K SIP7 Resistor Network                      | 3    |                      | [AliExpress](https://www.aliexpress.us/item/2251832653789055.html) |
 | 5mm LED (Red)                                   | 28   |                      | [AliExpress](https://www.aliexpress.us/item/2255800226642152.html) |
 | Miniature ON-ON Toggle                          | 13   | MTS-102 - 6mm        | [AliExpress](https://www.aliexpress.us/item/3256805560180852.html) |
 | Miniature ON-(ON) Momentary Toggle              | 7    | MTS-112 - 6mm        | [AliExpress](https://www.aliexpress.us/item/3256802276750993.html) |
-| SPDT Right Angle Slide Switch                   | 1    | 2.54mm Spacing       | [AliExpress](https://www.aliexpress.us/item/2251832665517359.html) |
+| SPDT Right Angle Slide Switch                   | 3    | 2.54mm Spacing       | [AliExpress](https://www.aliexpress.us/item/2251832665517359.html) |
 | C&K RM104772BCB Rotary Switch                   | 1    | 4 Position           | [Newark](https://www.newark.com/c-k-components/rm104772bcb/rotary-switch-1p-0-5a-24v-45deg/dp/69AH1990) |
 | 74HC05                                          | 1    |                      |                                                              |
 | 74HC74                                          | 1    |                      |                                                              |
@@ -43,7 +43,7 @@ C16 is a bulk storage cap for the 5V line.  I specced it at 470uF, but anything 
 | ATF22V10                                        | 1    |                      | UTSource/Ali/eBay                                            |
 | 2x25 2.54mm Pin Header                          | 1    |                      | [AliExpress](https://www.aliexpress.us/item/2251832485909733.html) |
 | 1x2 2.54mm Pin Socket                           | 1    | Cut down a 40p strip | [AliExpress](https://www.aliexpress.us/item/2251832484668248.html) |
-| 5.08mm 2p Terminal Block (or original 4P Molex) | 1    | KF301-2P             | [AliExpress](https://www.aliexpress.us/item/2251832480927324.html) |
+| 5.08mm 2p Terminal Block (or original 4P Molex) | 1    | KF301-2P (Power In)  | [AliExpress](https://www.aliexpress.us/item/2251832480927324.html) |
 
 # Mechanical BOM
 
@@ -77,7 +77,7 @@ Design file are in the [DesignSpark](3D/DesignSpark) folder if you would like to
 
 Build the PCB from low to high components, savings the switches, LED's, and pin headers for last. Pay attention to the Run (D28) LED, it's orientation is flipped vs. all the others. The rotary switch has a small notch, it MUST be lined up with the tick on the silkscreen. There is no other keying on this switch so it can be installed incorrectly.
 
-Print out six copies of the [M3 x 15.6mm Standoff](3D/STL/M3%20x%2015.6mm%20Standoff.stl) if you are using the 2mm high rubber inserts on top of them, or use the [M3 x 17.6mm Standoff](3D/STL/M3%20x%2017.6mm%20Standoff.stl) is you are not.
+Print out six copies of the [M3 x 15.6mm Standoff](3D/STL/M3%20x%2015.6mm%20Standoff.stl) if you are using the 2mm high rubber inserts on top of them, or use the [M3 x 17.6mm Standoff](3D/STL/M3%20x%2017.6mm%20Standoff.stl) if you are not.
 
 ![standoff-with-bumper](docs/standoff-with-bumper.jpg)
 
@@ -101,7 +101,7 @@ To install the pin headers first print and then install five [M3 x 12mm Standoff
 
 ![solder-headers](docs/solder-headers.jpg)
 
-At thing point you can install your IC's and make sure everything works.  JED files for the ATF16V8 and ATF22V10 are in the [Original STG FP6120 Files/pld](Original%20STG%20FP6120%20Files/spld) folder.  ATF16 gets decode.jed, ATF22 is control.jed. Now onto casing your new toy.
+At this point you can install your IC's and make sure everything works.  JED files for the ATF16V8 and ATF22V10 are in the [Original STG FP6120 Files/pld](Original%20STG%20FP6120%20Files/pld) folder.  ATF16 gets decode.jed, ATF22 is control.jed. Now onto casing your new toy.
 
 Plug the CF adapter, DB9, and DC input jack into the SBC6120.  Remove the 12mm standoffs, and install the SBC6120 to the [Bottom Plate](3D/STL/Bottom%20Plate%20-%20CF-IDE40.stl) with five M3x12mm screws into the bottom of the standoffs.
 
@@ -119,7 +119,7 @@ Install the [Reset Button](3D/STL/Reset%20Button.stl) extender into the hole and
 
 ![angle-dress-panel-with-top-case](docs/angle-dress-panel-with-top-case.jpg)
 
-Secure with six M2.5x6mm screw through the bottom of the case.
+Secure with six M2.5x6mm screws through the bottom of the case.
 
 Finally push the splined portion of the [Rotary Knob Adapter](3D/STL/Rotary%20Knob%20Adapter.stl) into your 6mm knob with the D cut opposite the indicator mark on the switch, and line up the D cut on the rotary switch.
 
@@ -127,4 +127,4 @@ Finally push the splined portion of the [Rotary Knob Adapter](3D/STL/Rotary%20Kn
 
 # How do I get some PCB's?
 
-If you are in the US, hit me up on the VCF forum thread above and if I have any extras, I can drop some in the mail for less than the cost of a small run at JLCPCB (size and shipping costs drive up the costs here).  Otherwise, there are gerber files available for use at your favorite PCB fab.
+If you are in the US, hit me up on the VCF forum thread above and if I have any extras, I can drop some in the mail for less than the cost of a small run at JLCPCB (size and shipping drive up the costs here).  Otherwise, there are gerber files available for use at your favorite PCB fab.
