@@ -47,14 +47,15 @@ C16 is a bulk storage cap for the 5V line.  I speced it at 470uF, but anything f
 
 # Mechanical BOM
 
-| Component                      | Qty  | Notes                | Link                                                         |
-| ------------------------------ | ---- | -------------------- | ------------------------------------------------------------ |
-| 12mm M3 Standoff               | 5    | SBC6120 to Panel     | 3D Print                                                     |
-| 15.6mm M3 Standoff             | 7    | Panel to Dress Panel | 3D Print                                                     |
-| 2mm High M3 Rubber Bumpers     | 7    | TS-2.7 Option        | [AliExpress](https://www.aliexpress.us/item/3256805089368820.html) |
-| M3 x 6mm Taper Head Screws     | 16   |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
-| M2.5 x 6mm Taper Header Screws | 6    |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
-| 15mm Diameter Knob             | 1    | "Plum Shaft" Option  | [AliExpress](https://www.aliexpress.us/item/2251832788673272.html) |
+| Component                    | Qty  | Notes                | Link                                                         |
+| ---------------------------- | ---- | -------------------- | ------------------------------------------------------------ |
+| 12mm M3 Standoff             | 5    | SBC6120 to Panel     | 3D Print                                                     |
+| 15.6mm M3 Standoff           | 7    | Panel to Dress Panel | 3D Print                                                     |
+| 2mm High M3 Rubber Bumpers   | 7    | TS-2.7 Option        | [AliExpress](https://www.aliexpress.us/item/3256805089368820.html) |
+| M3 x 6mm Taper Head Screws   | 11   |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
+| M3 x 12mm Taper Head Screws  | 5    |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
+| M2.5 x 6mm Taper Head Screws | 6    |                      | [AliExpress](https://www.aliexpress.us/item/3256801858523146.html) |
+| 15mm Diameter Knob           | 1    | "Plum Shaft" Option  | [AliExpress](https://www.aliexpress.us/item/2251832788673272.html) |
 
 # Other Parts
 
