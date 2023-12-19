@@ -26,7 +26,7 @@ C16 is a bulk storage cap for the 5V line.  I specced it at 470uF, but anything 
 | 470uF 16V Electrolytic Capacitor                | 1    | 3.5mm Lead Spacing   | [Newark](https://www.newark.com/multicomp-pro/mcmr16v477m8x9/cap-470uf-16v-alu-elec-radial/dp/39T1477) |
 | 10K 1% 1/4W Resistor                            | 3    |                      | [AliExpress](https://www.aliexpress.us/item/2251832766343175.html) |
 | 17.4K 1% 1/4W Resistor                          | 1    |                      | [AliExpress](https://www.aliexpress.us/item/2251832766343175.html) |
-| 560R SIP9 Resistor Network                      | 4    | I used 510R          | [AliExpress](https://www.aliexpress.us/item/3256801607747550.html) |
+| 560R SIP9 Resistor Network                      | 4    | I used 510R          | [AliExpress](https://www.aliexpress.us/item/2251832653789055.html) |
 | 4.7K SIP5 Resistor Network                      | 1    |                      | [AliExpress](https://www.aliexpress.us/item/2251832653789055.html) |
 | 4.7K SIP6 Resistor Network                      | 1    |                      | [AliExpress](https://www.aliexpress.us/item/2251832653789055.html) |
 | 4.7K SIP7 Resistor Network                      | 3    |                      | [AliExpress](https://www.aliexpress.us/item/2251832653789055.html) |
@@ -69,7 +69,7 @@ C16 is a bulk storage cap for the 5V line.  I specced it at 470uF, but anything 
 
 # Case
 
-The case is a simple two piece that holds the SBC6120 and front panel PCB securely to the bottom plate, and then the dress panel is held down by pressure around it's perimeter by the case top.  You will need supports on the bottom plate, but everything else can be printed without.  I would recommend a 0.2mm layer height since most dimensions are a multiple of that.  The case top and plate are 214mm x 135mm so they should printable on something like a standard Ender 3.
+The case is a simple two piece that holds the SBC6120 and front panel PCB securely to the bottom plate, and then the dress panel is held down by pressure around it's perimeter by the case top.  You will need supports on the bottom plate for CF, DB9, and DC power openings, but everything else can be printed without.  I would recommend a 0.2mm layer height since most dimensions are a multiple of that.  The case top and plate are 214mm x 135mm so they should be printable on something like a standard Ender 3.
 
 ![DesignSpark](docs/DesignSpark.png)
 
@@ -86,8 +86,6 @@ Total PLA filament usage for all part is ~146 grams according to Cura 5.5.
 | Reset Button                      | 1    | <1g                  |
 | Rotary Knob Adapter               | 1    | 1g                   |
 | 2.4mm Spacer for LED Installation | 4    | 1g                   |
-
-
 
 Design file are in the [DesignSpark](3D/DesignSpark) folder if you would like to modify further or tweak tolerances for your printer. 
 
