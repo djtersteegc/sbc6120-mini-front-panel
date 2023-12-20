@@ -101,7 +101,7 @@ Also print out 20 copies of the [Switch Spacer](3D/STL/Switch%20Spacer.stl).
 
 ![switch-spacer](docs/switch-spacer.jpg)
 
-Screw the standoff into the front panel PCB, place all the switches, paying attention to the ON-ON vs. ON-(ON) models. All momentary switches should face up with the exception of the Dep (SW19) which faces down then not activated.
+Screw the standoff into the front panel PCB, place all the switches, paying attention to the ON-ON vs. ON-(ON) models. All momentary switches should face up with the exception of the Dep (SW19) which faces down when not activated.
 
 ![panel-with-standoffs](docs/panel-with-standoffs.jpg)
 
